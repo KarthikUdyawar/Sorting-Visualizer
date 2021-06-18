@@ -68,17 +68,14 @@ class App:
         Button_Frame.place(x=5,y=400,width=280,height=145)
         
         #! Start button
-        start_btn = Button(Button_Frame, text="Start", bg="Orange", width=33,command=self.start_sort).grid( row=0, column=0, padx=15, pady=10) #?, 
+        start_btn = Button(Button_Frame, text="Start", bg="Orange", width=33,command=self.start_sort).grid( row=0, column=0, padx=15, pady=10) 
         
         #! Generate button
         self.generate()
-        start_btn = Button(Button_Frame, text="Generate", bg="Orange", width=33, command=self.generate).grid( row=1, column=0, padx=15, pady=10) #?, command=start_algorithm
-        
-        #! Interupt button
-        # interupt_btn = Button(Button_Frame, text="Interupt", bg="Orange", width=33, command=self.interupt).grid( row=2, column=0, padx=15, pady=10) #?
+        start_btn = Button(Button_Frame, text="Generate", bg="Orange", width=33, command=self.generate).grid( row=1, column=0, padx=15, pady=10) 
         
         #! Info Keys log
-        self.lblInstruction = Label(self.root,text="F11 - Toggle Fullscreen , Escape - Quit",bg="Grey",fg="white",font=('times new roman',15,'bold'),bd=5,relief=GROOVE)
+        self.lblInstruction = Label(self.root,text="Escape - Quit",bg="Grey",fg="white",font=('times new roman',15,'bold'),bd=5,relief=GROOVE)
         self.lblInstruction.pack(side=BOTTOM,fill=X)
         
         #! Mainloop

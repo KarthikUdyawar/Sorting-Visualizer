@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshots of project](https://github.com/KarthikUdyawar/Sorting-Visualizer/blob/main/Screenshot/Screenshot1.png)
+![Screenshots of project](https://github.com/KarthikUdyawar/Sorting-Visualizer/blob/main/Screenshot/Screenshot2.png)
 
 This project is about visualizing sorting algorithms like Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, Shell Sort, Radix Sort, Cocktail Sort, Gnome Sort, Heap Sort, Bucket Sort, Bitonic Sort, Tim Sort, Comp sort as well as Bogo Sort. We can select any sorting algorithm and visualize how they sort it. We can also change the array size, minimum and maximum number in an array. 
 
