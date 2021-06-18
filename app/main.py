@@ -2,7 +2,6 @@
 from tkinter import *
 from tkinter import ttk
 import random
-
 from package import bubble, selection, insertion, mergeSort, quick, shell, radix, cocktail, gnome, heap, bucket, bitonic, tim, bogo, comb
 
 class App:
