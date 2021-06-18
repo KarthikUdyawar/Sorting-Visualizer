@@ -2,6 +2,7 @@
 from tkinter import *
 from tkinter import ttk
 import random
+
 from package import bubble, selection, insertion, mergeSort, quick, shell, radix, cocktail, gnome, heap, bucket, bitonic, tim, bogo, comb
 
 class App:
@@ -9,7 +10,8 @@ class App:
         #! Initialization
         self.root = Tk()
         self.root.title("Sorting Visualizer")
-        # TODO: icon
+        icon = PhotoImage(file = 'app/icon/sort_1.png')
+        self.root.iconphoto(True, icon)
         self.w, self.h = 1200, 700
         self.posr = int(self.root.winfo_screenwidth()/2 - self.w/2)
         self.posd = int(self.root.winfo_screenheight()/2 - self.h/2)
@@ -61,10 +63,6 @@ class App:
         #! Maxmum value slidder
         self.maxEntry = Scale(Slidder_Frame, from_=10, to=200, length=250, resolution=1, orient=HORIZONTAL, label="Maximun Value") 
         self.maxEntry.grid(row=3, column=0, padx=8, pady=11) 
-        
-        #! Checkbox animation
-        # self.Checkbutton_animation = Checkbutton(Slidder_Frame, text = "Animation",bg='gray',variable = self.is_animation,onvalue = 1,offvalue = 0,height = 2,width = 10,activebackground='gray')
-        # self.Checkbutton_animation.grid(row=4, column=0, padx=8, pady=5)
         
         #! Button Frame
         Button_Frame = Frame(Manage_Frame,bd=4,relief=GROOVE,bg='Grey')
