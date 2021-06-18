@@ -57,21 +57,19 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshots of project](https://github.com/KarthikUdyawar/Contact-manager/blob/main/Screenshots/Screenshot%20(1).png)
+![Screenshots of project](https://github.com/KarthikUdyawar/Sorting-Visualizer/blob/main/Screenshot/Screenshot1.png)
 
-<p style='text-align: justify;'> This is one of the excellent python projects for beginners. Everyone uses a contact book to save contact details, including name, address, phone number, and even email address. This is a command-line project where you will design a contact book application that users can use to save and find contact details. The application should also allow users to update contact information, delete contacts, and list saved contacts. The SQLite database is the ideal platform for saving contacts. Handle a project with <strong>Python for beginners</strong> can be helpful to build your career with a good start. </p>
+This project is about visualizing sorting algorithms like Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, Shell Sort, Radix Sort, Cocktail Sort, Gnome Sort, Heap Sort, Bucket Sort, Bitonic Sort, Tim Sort, Comp sort as well as Bogo Sort. We can select any sorting algorithm and visualize how they sort it. We can also change the array size, minimum and maximum number in an array. 
 
 
 ### Built With
 
 * [Python](https://www.python.org/)
-* [Database Browser for SQLite](https://sqlitebrowser.org/about/)
 
 ### Modules used
-* [PIL](https://pillow.readthedocs.io/en/stable/)
 * [tkinter](https://docs.python.org/3/library/tkinter.html)
-* [sqlite3](https://docs.python.org/3/library/sqlite3.html)
-* [os](https://docs.python.org/3/library/os.html)
+* [random](https://docs.python.org/3/library/random.html)
+* [package - (custom)](https://github.com/KarthikUdyawar/Sorting-Visualizer/tree/main/app/package)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -87,13 +85,9 @@ Make sour app have the latest version of python & pip installed.
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/KarthikUdyawar/Contact-manager.git
+   git clone https://github.com/KarthikUdyawar/Sorting-Visualizer.git
    ```
-2. Install packages from requirements.txt
-   ```powershell
-   pip install -r requirements.txt
-   ```
-3. Running the app
+2. Running the app
    ```powershell
    cd app
    python main.py
@@ -102,7 +96,7 @@ Make sour app have the latest version of python & pip installed.
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [network](https://github.com/KarthikUdyawar/Contact-manager/network) for a list of proposed features from Contributes.
+See the [network](https://github.com/KarthikUdyawar/Sorting-Visualizer/network) for a list of proposed features from Contributes.
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -118,7 +112,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/KarthikUdyawar/Contact-manager/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/KarthikUdyawar/Sorting-Visualizer/blob/main/LICENSE) for more information.
 
 <!-- CONTACT -->
 ## Contact
@@ -129,4 +123,4 @@ Github : [https://github.com/KarthikUdyawar](https://github.com/KarthikUdyawar)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* IOT
+* [GeeksforGeeks](https://www.geeksforgeeks.org/sorting-algorithms/)
