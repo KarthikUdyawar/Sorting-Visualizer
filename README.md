@@ -1,6 +1,3 @@
-# Sorting-Visualizer
- Sorting Visualizer a GUI based python program to visualize common Sorting Algorithms.
-
 ![GitHub](https://img.shields.io/github/license/KarthikUdyawar/Sorting-Visualizer)
 ![GitHub issues](https://img.shields.io/github/issues/KarthikUdyawar/Sorting-Visualizer)
 ![GitHub contributors](https://img.shields.io/github/contributors/KarthikUdyawar/Sorting-Visualizer)
